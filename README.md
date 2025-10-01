@@ -1,4 +1,4 @@
-🖼 Dataset
+Dataset
 Source: NIH Malaria Dataset
 
 27,558 images (equal number of Parasitized and Uninfected samples)
@@ -9,7 +9,7 @@ Images are cell-level and labeled as:
 
 1: Infected
 
-🧱 Model Architecture
+Model Architecture
 Input: 64x64 RGB images
 
 Conv2D + ReLU + MaxPooling2D (x3)
@@ -20,14 +20,14 @@ Loss: binary_crossentropy
 
 Optimizer: adam
 
-🎯 Accuracy
+Accuracy
 Training accuracy: ~94.8%
 
 Validation accuracy: ~94.6%
 
 Model generalizes well with no visible overfitting
 
-🧪 How It Works
+How It Works
 Images are loaded and resized to 64x64
 
 Normalized to range [0, 1]
